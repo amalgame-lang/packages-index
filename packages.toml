@@ -1,0 +1,61 @@
+# Amalgame — official package index
+#
+# Curated by Bastien Mouget. `amc add <shortname>@<tag>` looks up
+# this file via raw.githubusercontent.com to resolve the
+# shortname (left column) to the full git URL (right column).
+#
+# Two tiers:
+#   - tier = "official"  → hosted under amalgame-lang/ org,
+#                           maintained by Bastien Mouget directly.
+#                           Carries the strongest trust signal.
+#   - tier = "listed"    → hosted at a third-party URL, verified
+#                           via PR review on this repo. Code stays
+#                           with the upstream author; the listing
+#                           is a "yes, I've reviewed this and it's
+#                           reasonable" stamp, not an ownership
+#                           transfer.
+#
+# Unlisted packages always work via the full URL form:
+#   `amc add github.com/foo/amalgame-bar@v1.0.0`
+# — but get an "⚠ unverified" warning at install time.
+#
+# To submit a community package, open a PR adding a new
+# [[package]] block. Review criteria:
+#   - The repo exists, builds, and tests pass via its own CI.
+#   - The manifest declares a non-empty `license` field
+#     compatible with Apache-2.0 redistribution.
+#   - The repo's README is honest about what the package does.
+#   - The author isn't impersonating an existing project.
+#
+# Removal: open a PR removing the entry. Reasons we'd remove:
+#   - Repo deleted / 404
+#   - License changed to something incompatible
+#   - Maintainer asks
+#   - Discovered to be malware
+
+[[package]]
+name        = "sqlite"
+url         = "github.com/amalgame-lang/amalgame-database-sqlite"
+description = "SQLite 3 binding via vendored amalgamation. Public-domain upstream, no libsqlite3-dev needed."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
+name        = "redis"
+url         = "github.com/amalgame-lang/amalgame-database-nosql-redis"
+description = "Redis (RESP2) client over raw TCP. Pure-protocol, no vendored lib. Works against Redis / KeyDB / Dragonfly / Valkey."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
+name        = "mqtt"
+url         = "github.com/amalgame-lang/amalgame-messaging-mqtt"
+description = "MQTT 3.1.1 client over raw TCP. Pure-protocol, no vendored lib. QoS 0 in v1."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "messaging"
