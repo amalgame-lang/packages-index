@@ -1,8 +1,9 @@
 # Amalgame — official package index
 #
-# Curated by Bastien Mouget. `amc add <shortname>@<tag>` looks up
-# this file via raw.githubusercontent.com to resolve the
-# shortname (left column) to the full git URL (right column).
+# Curated by Bastien Mouget. `amc package add <shortname>@<tag>`
+# looks up this file via raw.githubusercontent.com to resolve the
+# shortname (left column) to the full git URL. `amc package search`
+# also reads it for browse + version listing + compat check.
 #
 # Two tiers:
 #   - tier = "official"  → hosted under amalgame-lang/ org,
@@ -16,11 +17,25 @@
 #                           transfer.
 #
 # Unlisted packages always work via the full URL form:
-#   `amc add github.com/foo/amalgame-bar@v1.0.0`
+#   `amc package add github.com/foo/amalgame-bar@v1.0.0`
 # — but get an "⚠ unverified" warning at install time.
 #
-# To submit a community package, open a PR adding a new
-# [[package]] block. Review criteria:
+# ── Schema (since amc v0.5.5) ───────────────────────────
+#
+# Two flat arrays:
+#
+#   [[package]]    — one entry per shortname (4 lines + meta).
+#   [[version]]    — one entry per (shortname, tag) pair. Linked
+#                    to [[package]] by the `package` field. Each
+#                    version declares the manifest's
+#                    `required-amalgame` so `amc package search`
+#                    can mark compat per tag without cloning.
+#
+# To submit a new version (own package): open a PR adding one
+# [[version]] block. To submit a new package: add both a
+# [[package]] and at least one [[version]].
+#
+# Review criteria for new packages:
 #   - The repo exists, builds, and tests pass via its own CI.
 #   - The manifest declares a non-empty `license` field
 #     compatible with Apache-2.0 redistribution.
@@ -32,6 +47,12 @@
 #   - License changed to something incompatible
 #   - Maintainer asks
 #   - Discovered to be malware
+
+schema-version = 1
+
+# ─────────────────────────────────────────────────────────
+#  Packages
+# ─────────────────────────────────────────────────────────
 
 [[package]]
 name        = "sqlite"
@@ -59,3 +80,46 @@ tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "messaging"
+
+[[package]]
+name        = "duckdb"
+url         = "github.com/amalgame-lang/amalgame-database-duckdb"
+description = "DuckDB binding — vendored C++ amalgamation (MIT). Embedded analytical (OLAP) database; SQLite for analytics."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+# ─────────────────────────────────────────────────────────
+#  Versions
+# ─────────────────────────────────────────────────────────
+#
+# Ordered newest-last so `amc package search` can pick the
+# latest by scanning to the end. Anything outside this list
+# is invisible to shortname `add` — fall back to the full
+# URL form for unindexed / pre-release tags.
+
+[[version]]
+package           = "sqlite"
+tag               = "v0.2.0"
+required-amalgame = ">=0.5.0"
+
+[[version]]
+package           = "redis"
+tag               = "v0.2.0"
+required-amalgame = ">=0.5.0"
+
+[[version]]
+package           = "mqtt"
+tag               = "v0.2.0"
+required-amalgame = ">=0.5.0"
+
+[[version]]
+package           = "duckdb"
+tag               = "v0.1.0"
+required-amalgame = ">=0.5.3"
+
+[[version]]
+package           = "duckdb"
+tag               = "v0.1.1"
+required-amalgame = ">=0.5.4"
