@@ -135,6 +135,51 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "framework"
 
+[[package]]
+name        = "datetime"
+url         = "github.com/amalgame-lang/amalgame-datetime"
+description = "Pure-Amalgame datetime facade: Instant (nanosecond UTC) + Duration (signed i64 ns) + Stopwatch (monotonic) + ISO 8601 format/parse."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "logging"
+url         = "github.com/amalgame-lang/amalgame-logging"
+description = "Pure-Amalgame logging facade: 4 levels (Debug/Info/Warn/Error) + UTC ISO 8601 timestamps + optional file sink."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "service"
+url         = "github.com/amalgame-lang/amalgame-service"
+description = "Pure-Amalgame service facade: SIGTERM/SIGINT handler + ShouldStop polling + interruptible Sleep for long-running daemons."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "io-filewatcher"
+url         = "github.com/amalgame-lang/amalgame-io-filewatcher"
+description = "Pure-Amalgame file-watch facade: single-file mtime polling (Exists / Changed / GetPath). Cross-platform via stat() / _stat64."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "yaml"
+url         = "github.com/amalgame-lang/amalgame-yaml"
+description = "Pure-Amalgame YAML 1.2 subset reader: block mappings + sequences + scalars (bool/int/float/string)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
