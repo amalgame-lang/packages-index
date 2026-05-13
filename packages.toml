@@ -90,6 +90,51 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "database"
 
+[[package]]
+name        = "encoding"
+url         = "github.com/amalgame-lang/amalgame-encoding"
+description = "Pure-Amalgame encoding facade: Base64 (RFC 4648), Hex, percent-encoding (RFC 3986). Stateless static helpers."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "crypto"
+url         = "github.com/amalgame-lang/amalgame-crypto"
+description = "Pure-Amalgame crypto facade: SHA-256 (FIPS 180-4) + HMAC-SHA-256 (RFC 2104)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "random"
+url         = "github.com/amalgame-lang/amalgame-random"
+description = "Pure-Amalgame random facade: PCG-32 deterministic stream + crypto-grade entropy from OS primitives."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "math"
+url         = "github.com/amalgame-lang/amalgame-math"
+description = "Pure-Amalgame Math facade: sqrt/sin/cos/pow/log + constants + integer math + IsPrime + float checks."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "math-vec"
+url         = "github.com/amalgame-lang/amalgame-math-vec"
+description = "Pure-Amalgame Vec3/Vec4/Mat4 — column-major 4×4 matrix math (OpenGL convention) for graphics + games."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
@@ -128,3 +173,28 @@ required-amalgame = ">=0.5.4"
 package           = "sqlite"
 tag               = "v0.2.2"
 required-amalgame = ">=0.5.4"
+
+[[version]]
+package           = "encoding"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "crypto"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "random"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "math"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "math-vec"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.6"
