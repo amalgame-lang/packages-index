@@ -295,3 +295,8 @@ required-amalgame = ">=0.7.7"
 package           = "datetime"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "regex"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
