@@ -180,6 +180,33 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "framework"
 
+[[package]]
+name        = "regex"
+url         = "github.com/amalgame-lang/amalgame-regex"
+description = "POSIX extended-regex binding: Test / Match / MatchAll / Replace. Available on every POSIX + MSYS2."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "compress"
+url         = "github.com/amalgame-lang/amalgame-compress"
+description = "zlib gzip + raw-deflate codec: Gzip / Gunzip / Deflate / Inflate over List<int> byte buffers."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "net-websocket"
+url         = "github.com/amalgame-lang/amalgame-net-websocket"
+description = "RFC 6455 WebSocket client: text frames, plain TCP, in-process SHA-1 + Base64 (no OpenSSL needed)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
