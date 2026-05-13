@@ -253,3 +253,8 @@ required-amalgame = ">=0.7.7"
 package           = "service"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "io-filewatcher"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
