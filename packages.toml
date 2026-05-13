@@ -305,3 +305,8 @@ required-amalgame = ">=0.7.7"
 package           = "compress"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "net-websocket"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
