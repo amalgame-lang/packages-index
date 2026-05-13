@@ -300,3 +300,8 @@ required-amalgame = ">=0.7.7"
 package           = "regex"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "compress"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
