@@ -243,3 +243,8 @@ required-amalgame = ">=0.7.6"
 package           = "math-vec"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "logging"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
