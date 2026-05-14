@@ -207,6 +207,24 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "framework"
 
+[[package]]
+name        = "ui-sdl"
+url         = "github.com/amalgame-lang/amalgame-ui-sdl"
+description = "Thin SDL2/SDL3 binding — Window/Event/Surface/Font/Color/Rect/OSTheme. Foundation for amalgame-ui-forms."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "ui"
+
+[[package]]
+name        = "ui-forms"
+url         = "github.com/amalgame-lang/amalgame-ui-forms"
+description = "Retained-mode GUI toolkit on top of ui-sdl: Form + 8 widget kinds + Stack/Grid/Absolute layouts + light/dark theming."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "ui"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
@@ -310,3 +328,13 @@ required-amalgame = ">=0.7.7"
 package           = "net-websocket"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "ui-sdl"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.7"
+
+[[version]]
+package           = "ui-forms"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.7"
