@@ -348,3 +348,8 @@ required-amalgame = ">=0.8.7"
 package           = "ui-forms"
 tag               = "v0.1.2"
 required-amalgame = ">=0.8.7"
+
+[[version]]
+package           = "ui-forms"
+tag               = "v0.1.3"
+required-amalgame = ">=0.8.7"
