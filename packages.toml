@@ -225,6 +225,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "ui"
 
+[[package]]
+name        = "ui-web"
+url         = "github.com/amalgame-lang/amalgame-ui-web"
+description = "Webview-based GUI binding: HTML/CSS/JS frontends rendered by WebView2/WKWebView/WebKitGTK + AM-side Element/Page builder + JS↔AM IPC via Window.Bind."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "ui"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
@@ -358,3 +367,8 @@ required-amalgame = ">=0.8.7"
 package           = "ui-forms"
 tag               = "v0.1.4"
 required-amalgame = ">=0.8.10"
+
+[[version]]
+package           = "ui-web"
+tag               = "v0.0.3"
+required-amalgame = ">=0.8.12"
