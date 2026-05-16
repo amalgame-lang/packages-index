@@ -190,6 +190,15 @@ license     = "Apache-2.0"
 category    = "framework"
 
 [[package]]
+name        = "threading"
+url         = "github.com/amalgame-lang/amalgame-threading"
+description = "Threading primitives — Mutex, Channel (bounded FIFO), Thread.Spawn/Join/Sleep. Wraps pthread with bdwgc-safe thread registration."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
 name        = "service"
 url         = "github.com/amalgame-lang/amalgame-service"
 description = "Pure-Amalgame service facade: SIGTERM/SIGINT handler + ShouldStop polling + interruptible Sleep for long-running daemons."
@@ -489,5 +498,10 @@ required-amalgame = ">=0.8.19"
 
 [[version]]
 package           = "mongodb"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "threading"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.19"
