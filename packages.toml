@@ -100,6 +100,15 @@ license     = "Apache-2.0"
 category    = "database"
 
 [[package]]
+name        = "postgresql"
+url         = "github.com/amalgame-lang/amalgame-database-postgresql"
+description = "PostgreSQL binding — dynamic-linked to system libpq, no vendored lib. First package to exercise the dynamic-link manifest pattern."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
 name        = "encoding"
 url         = "github.com/amalgame-lang/amalgame-encoding"
 description = "Pure-Amalgame encoding facade: Base64 (RFC 4648), Hex, percent-encoding (RFC 3986). Stateless static helpers."
@@ -447,5 +456,10 @@ required-amalgame = ">=0.5.4"
 
 [[version]]
 package           = "audio"
+tag               = "v0.1.0"
+required-amalgame = ">=0.5.4"
+
+[[version]]
+package           = "postgresql"
 tag               = "v0.1.0"
 required-amalgame = ">=0.5.4"
