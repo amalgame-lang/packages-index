@@ -118,6 +118,15 @@ license     = "Apache-2.0"
 category    = "database"
 
 [[package]]
+name        = "mongodb"
+url         = "github.com/amalgame-lang/amalgame-database-nosql-mongodb"
+description = "MongoDB binding — dynamic-linked to mongo-c-driver (libmongoc + libbson). Document model with JSON in/out, BSON under the hood."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
 name        = "encoding"
 url         = "github.com/amalgame-lang/amalgame-encoding"
 description = "Pure-Amalgame encoding facade: Base64 (RFC 4648), Hex, percent-encoding (RFC 3986). Stateless static helpers."
@@ -475,5 +484,10 @@ required-amalgame = ">=0.5.4"
 
 [[version]]
 package           = "mysql"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "mongodb"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.19"
