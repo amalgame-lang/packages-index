@@ -82,6 +82,15 @@ license     = "Apache-2.0"
 category    = "messaging"
 
 [[package]]
+name        = "nats"
+url         = "github.com/amalgame-lang/amalgame-messaging-nats"
+description = "NATS Core client over raw TCP. Pure-protocol (text format, 15 verbs), no vendored lib. Pub/sub + subjects with wildcards in v1."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "messaging"
+
+[[package]]
 name        = "duckdb"
 url         = "github.com/amalgame-lang/amalgame-database-duckdb"
 description = "DuckDB binding — vendored C++ amalgamation (MIT). Embedded analytical (OLAP) database; SQLite for analytics."
@@ -233,6 +242,15 @@ tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "ui"
+
+[[package]]
+name        = "image"
+url         = "github.com/amalgame-lang/amalgame-image"
+description = "Image decode/encode for Amalgame — stb_image + stb_image_write (public domain), vendored. PNG/JPG/BMP/TGA/GIF/PSD/HDR/PIC/PNM load + PNG/BMP/TGA/JPG save."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "media"
 
 # ─────────────────────────────────────────────────────────
 #  Versions
@@ -407,3 +425,13 @@ required-amalgame = ">=0.8.12"
 package           = "ui-web"
 tag               = "v0.0.10"
 required-amalgame = ">=0.8.12"
+
+[[version]]
+package           = "nats"
+tag               = "v0.1.0"
+required-amalgame = ">=0.5.0"
+
+[[version]]
+package           = "image"
+tag               = "v0.1.0"
+required-amalgame = ">=0.5.4"
