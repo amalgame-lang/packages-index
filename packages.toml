@@ -397,3 +397,8 @@ required-amalgame = ">=0.8.12"
 package           = "ui-web"
 tag               = "v0.0.8"
 required-amalgame = ">=0.8.12"
+
+[[version]]
+package           = "ui-web"
+tag               = "v0.0.9"
+required-amalgame = ">=0.8.12"
