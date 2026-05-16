@@ -252,6 +252,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "media"
 
+[[package]]
+name        = "audio"
+url         = "github.com/amalgame-lang/amalgame-audio"
+description = "Audio synth + playback + WAV IO for Amalgame — miniaudio (public domain), vendored. Sine/Square/Triangle/Noise gen, ADSR envelope, Mix, Echo, SaveAsWav, LoadWav, Play."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "media"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
@@ -433,5 +442,10 @@ required-amalgame = ">=0.5.0"
 
 [[version]]
 package           = "image"
+tag               = "v0.1.0"
+required-amalgame = ">=0.5.4"
+
+[[version]]
+package           = "audio"
 tag               = "v0.1.0"
 required-amalgame = ">=0.5.4"
