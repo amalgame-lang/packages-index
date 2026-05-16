@@ -109,6 +109,15 @@ license     = "Apache-2.0"
 category    = "database"
 
 [[package]]
+name        = "mysql"
+url         = "github.com/amalgame-lang/amalgame-database-mysql"
+description = "MySQL / MariaDB binding — dynamic-linked to system libmariadb. Works against MariaDB ≥ 10.x and MySQL ≥ 5.7 (shared wire protocol)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
 name        = "encoding"
 url         = "github.com/amalgame-lang/amalgame-encoding"
 description = "Pure-Amalgame encoding facade: Base64 (RFC 4648), Hex, percent-encoding (RFC 3986). Stateless static helpers."
@@ -463,3 +472,8 @@ required-amalgame = ">=0.5.4"
 package           = "postgresql"
 tag               = "v0.1.0"
 required-amalgame = ">=0.5.4"
+
+[[version]]
+package           = "mysql"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
