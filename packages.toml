@@ -100,6 +100,15 @@ license     = "Apache-2.0"
 category    = "messaging"
 
 [[package]]
+name        = "rabbitmq"
+url         = "github.com/amalgame-lang/amalgame-messaging-rabbitmq"
+description = "RabbitMQ / AMQP 0.9.1 client — dynamic-linked to librabbitmq (rabbitmq-c). Exchanges + Queues + Bindings + Publish + Consume + Ack. Works against any AMQP 0.9.1 broker (RabbitMQ, Apache Qpid, CloudAMQP)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "messaging"
+
+[[package]]
 name        = "duckdb"
 url         = "github.com/amalgame-lang/amalgame-database-duckdb"
 description = "DuckDB binding — vendored C++ amalgamation (MIT). Embedded analytical (OLAP) database; SQLite for analytics."
@@ -522,5 +531,10 @@ required-amalgame = ">=0.8.19"
 
 [[version]]
 package           = "kafka"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "rabbitmq"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.19"
