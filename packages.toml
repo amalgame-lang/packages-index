@@ -91,6 +91,15 @@ license     = "Apache-2.0"
 category    = "messaging"
 
 [[package]]
+name        = "kafka"
+url         = "github.com/amalgame-lang/amalgame-messaging-kafka"
+description = "Apache Kafka client — dynamic-linked to librdkafka. Producer + Consumer + groups. Works against any Kafka-protocol broker (Apache Kafka, Confluent, Redpanda, Aiven, AWS MSK)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "messaging"
+
+[[package]]
 name        = "duckdb"
 url         = "github.com/amalgame-lang/amalgame-database-duckdb"
 description = "DuckDB binding — vendored C++ amalgamation (MIT). Embedded analytical (OLAP) database; SQLite for analytics."
@@ -509,4 +518,9 @@ required-amalgame = ">=0.8.19"
 [[version]]
 package           = "nats"
 tag               = "v0.2.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "kafka"
+tag               = "v0.1.0"
 required-amalgame = ">=0.8.19"
