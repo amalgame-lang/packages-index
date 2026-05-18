@@ -609,3 +609,8 @@ required-amalgame = ">=0.8.29"
 package           = "net-http"
 tag               = "v0.1.1"
 required-amalgame = ">=0.8.29"
+
+[[version]]
+package           = "net-curl"
+tag               = "v0.1.1"
+required-amalgame = ">=0.8.31"
