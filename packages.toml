@@ -579,3 +579,8 @@ required-amalgame = ">=0.8.19"
 package           = "tls"
 tag               = "v0.1.1"
 required-amalgame = ">=0.8.29"
+
+[[version]]
+package           = "web"
+tag               = "v0.1.1"
+required-amalgame = ">=0.8.29"
