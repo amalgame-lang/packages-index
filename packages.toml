@@ -714,3 +714,8 @@ required-amalgame = ">=0.8.34"
 package           = "net-http"
 tag               = "v0.4.5"
 required-amalgame = ">=0.8.34"
+
+[[version]]
+package           = "net-http"
+tag               = "v0.4.6"
+required-amalgame = ">=0.8.34"
