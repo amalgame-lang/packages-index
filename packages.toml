@@ -679,3 +679,8 @@ required-amalgame = ">=0.8.35"
 package           = "tls"
 tag               = "v0.2.2"
 required-amalgame = ">=0.8.29"
+
+[[version]]
+package           = "net-http"
+tag               = "v0.4.2"
+required-amalgame = ">=0.8.34"
