@@ -136,6 +136,24 @@ license     = "Apache-2.0"
 category    = "database"
 
 [[package]]
+name        = "mssql"
+url         = "github.com/amalgame-lang/amalgame-database-mssql"
+description = "Microsoft SQL Server binding — dynamic-linked to unixODBC + MS ODBC Driver. Works against SQL Server 2017+, Azure SQL Database, and Azure SQL Managed Instance."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
+name        = "oracle"
+url         = "github.com/amalgame-lang/amalgame-database-oracle"
+description = "Oracle Database binding — dynamic-linked to Oracle Instant Client (OCI). Works against any release supported by the installed Instant Client (typically 19c, 21c, 23ai)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
 name        = "mongodb"
 url         = "github.com/amalgame-lang/amalgame-database-nosql-mongodb"
 description = "MongoDB binding — dynamic-linked to mongo-c-driver (libmongoc + libbson). Document model with JSON in/out, BSON under the hood."
@@ -547,6 +565,16 @@ required-amalgame = ">=0.5.4"
 
 [[version]]
 package           = "mysql"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "mssql"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "oracle"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.19"
 
