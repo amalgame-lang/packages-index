@@ -235,6 +235,15 @@ license     = "Apache-2.0"
 category    = "framework"
 
 [[package]]
+name        = "async"
+url         = "github.com/amalgame-lang/amalgame-async"
+description = "Cooperative concurrency — Fiber, Channel (scheduler-aware parking), Scheduler. Stackful coroutines on POSIX ucontext; composes with amalgame-threading for M:N."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
 name        = "service"
 url         = "github.com/amalgame-lang/amalgame-service"
 description = "Pure-Amalgame service facade: SIGTERM/SIGINT handler + ShouldStop polling + interruptible Sleep for long-running daemons."
