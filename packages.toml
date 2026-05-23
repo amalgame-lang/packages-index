@@ -906,3 +906,8 @@ required-amalgame = ">=0.8.39"
 package           = "web"
 tag               = "v0.12.4"
 required-amalgame = ">=0.8.39"
+
+[[version]]
+package           = "async"
+tag               = "v0.2.3"
+required-amalgame = ">=0.8.19"
