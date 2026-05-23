@@ -911,3 +911,8 @@ required-amalgame = ">=0.8.39"
 package           = "async"
 tag               = "v0.2.3"
 required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "image"
+tag               = "v0.2.0"
+required-amalgame = ">=0.5.4"
