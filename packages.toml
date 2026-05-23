@@ -916,3 +916,8 @@ required-amalgame = ">=0.8.19"
 package           = "audio"
 tag               = "v0.2.0"
 required-amalgame = ">=0.5.4"
+
+[[version]]
+package           = "audio"
+tag               = "v0.3.0"
+required-amalgame = ">=0.5.4"
