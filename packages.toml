@@ -966,3 +966,8 @@ required-amalgame = ">=0.8.47"
 package           = "postgresql"
 tag               = "v0.2.0"
 required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "oracle"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.40"
