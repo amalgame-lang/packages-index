@@ -951,3 +951,8 @@ required-amalgame = ">=0.8.29"
 package           = "io-filewatcher"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.47"
+
+[[version]]
+package           = "io-filewatcher"
+tag               = "v0.4.0"
+required-amalgame = ">=0.8.47"
