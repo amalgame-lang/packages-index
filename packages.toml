@@ -991,3 +991,8 @@ required-amalgame = ">=0.8.40"
 package           = "duckdb"
 tag               = "v0.2.0"
 required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "net-http"
+tag               = "v0.9.6"
+required-amalgame = ">=0.8.48"
