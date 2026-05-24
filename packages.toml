@@ -986,3 +986,8 @@ required-amalgame = ">=0.8.40"
 package           = "oracle"
 tag               = "v0.2.0"
 required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "duckdb"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.40"
