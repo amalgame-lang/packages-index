@@ -378,6 +378,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "framework"
 
+[[package]]
+name        = "pollen"
+url         = "github.com/amalgame-lang/amalgame-pollen"
+description = "Workflow engine for Pollen — runs workflow.json v2 trees over a P2P TCP message bus."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "messaging"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
