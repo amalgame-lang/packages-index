@@ -1115,3 +1115,8 @@ required-amalgame = ">=0.8.52"
 package           = "pollen"
 tag               = "v0.1.17"
 required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "pollen"
+tag               = "v0.1.18"
+required-amalgame = ">=0.8.52"
