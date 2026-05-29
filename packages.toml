@@ -1190,3 +1190,8 @@ required-amalgame = ">=0.8.50"
 package           = "web"
 tag               = "v0.15.0"
 required-amalgame = ">=0.8.50"
+
+[[version]]
+package           = "web"
+tag               = "v0.16.0"
+required-amalgame = ">=0.8.50"
