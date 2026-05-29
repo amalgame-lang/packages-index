@@ -1165,3 +1165,8 @@ required-amalgame = ">=0.8.40"
 package           = "mysql"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "mssql"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.40"
