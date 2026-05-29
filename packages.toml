@@ -1175,3 +1175,8 @@ required-amalgame = ">=0.8.40"
 package           = "oracle"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "net-http"
+tag               = "v0.10.0"
+required-amalgame = ">=0.8.48"
