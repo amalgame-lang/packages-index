@@ -1235,3 +1235,8 @@ required-amalgame = ">=0.8.52"
 package           = "pollen"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "async"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.19"
