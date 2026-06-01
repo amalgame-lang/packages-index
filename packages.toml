@@ -361,6 +361,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "net-smtp"
+url         = "github.com/amalgame-lang/amalgame-net-smtp"
+description = "Minimal SMTP client — send transactional mail over implicit TLS (port 465)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-curl"
 url         = "github.com/amalgame-lang/amalgame-net-curl"
 description = "Thin libcurl binding — Http.Get/Post/Put/Delete/Patch with redirects + HTTPS."
