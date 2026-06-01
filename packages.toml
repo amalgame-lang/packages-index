@@ -1254,3 +1254,8 @@ required-amalgame = ">=0.8.19"
 package           = "net-smtp"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "net-smtp"
+tag               = "v0.1.1"
+required-amalgame = ">=0.8.58"
