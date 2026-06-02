@@ -477,6 +477,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hardware-control"
+url         = "github.com/amalgame-lang/amalgame-hardware-control"
+description = "Pure-Amalgame control helpers: PID, IMU complementary filter, moving average, map/clamp."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
