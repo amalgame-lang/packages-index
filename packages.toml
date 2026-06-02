@@ -396,6 +396,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "messaging"
 
+[[package]]
+name        = "hardware-gpio"
+url         = "github.com/amalgame-lang/amalgame-hardware-gpio"
+description = "GPIO digital I/O for Linux SBCs (Raspberry Pi 1→5) via libgpiod v2. First of the Amalgame.Hardware family."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
