@@ -1492,3 +1492,8 @@ required-amalgame = ">=0.8.72"
 package           = "hardware-display"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "hardware-sensor"
+tag               = "v0.4.0"
+required-amalgame = ">=0.8.72"
