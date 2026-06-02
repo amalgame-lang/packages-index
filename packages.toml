@@ -450,6 +450,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hardware-input"
+url         = "github.com/amalgame-lang/amalgame-hardware-input"
+description = "Portable input drivers (debounced Button, RotaryEncoder) over Amalgame.Hal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
