@@ -1598,3 +1598,8 @@ required-amalgame = ">=0.8.72"
 package           = "net-http"
 tag               = "v0.13.6"
 required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "hardware-rtc"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
