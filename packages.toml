@@ -1353,3 +1353,8 @@ required-amalgame = ">=0.8.47"
 package           = "hardware-gpio"
 tag               = "v0.2.0"
 required-amalgame = ">=0.8.47"
+
+[[version]]
+package           = "hardware-gpio"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.47"
