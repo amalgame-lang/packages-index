@@ -1574,3 +1574,8 @@ required-amalgame = ">=0.8.58"
 package           = "hardware-led"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "hardware-io"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.72"
