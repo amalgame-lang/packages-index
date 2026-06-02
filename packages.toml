@@ -468,6 +468,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hardware-comms"
+url         = "github.com/amalgame-lang/amalgame-hardware-comms"
+description = "Portable serial-comms drivers (NMEA GPS) over Amalgame.Hal SerialPort."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
