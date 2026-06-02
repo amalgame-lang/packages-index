@@ -405,6 +405,51 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hal"
+url         = "github.com/amalgame-lang/amalgame-hal"
+description = "Portable hardware abstraction interfaces (DigitalOut/In, PwmOut, I2cBus, SpiBus, Clock) — write a driver once, run on Raspberry Pi and future MCU backends."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
+[[package]]
+name        = "hardware-led"
+url         = "github.com/amalgame-lang/amalgame-hardware-led"
+description = "Portable LED drivers (simple + RGB-PWM) over Amalgame.Hal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
+[[package]]
+name        = "hardware-motor"
+url         = "github.com/amalgame-lang/amalgame-hardware-motor"
+description = "Portable motor/actuator drivers (servo/ESC, DC H-bridge, 28BYJ-48 stepper, relay) over Amalgame.Hal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
+[[package]]
+name        = "hardware-sensor"
+url         = "github.com/amalgame-lang/amalgame-hardware-sensor"
+description = "Portable sensor drivers (HC-SR04 distance, MCP3008 ADC, BME280 temp/pressure/humidity) over Amalgame.Hal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
+[[package]]
+name        = "hardware-display"
+url         = "github.com/amalgame-lang/amalgame-hardware-display"
+description = "Portable display drivers (SSD1306 128x64 OLED, framebuffer + text) over Amalgame.Hal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
