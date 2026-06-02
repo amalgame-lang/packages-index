@@ -459,6 +459,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hardware-io"
+url         = "github.com/amalgame-lang/amalgame-hardware-io"
+description = "Portable I/O expander drivers (PCF8574 8-bit I2C) over Amalgame.Hal — each pin is a DigitalOut + DigitalIn."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
