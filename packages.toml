@@ -486,6 +486,15 @@ maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
 category    = "hardware"
 
+[[package]]
+name        = "hardware-rtc"
+url         = "github.com/amalgame-lang/amalgame-hardware-rtc"
+description = "Portable real-time-clock drivers (DS3231 TCXO + thermometer, DS1307) over Amalgame.Hal I2cBus — keep wall-clock time across power cuts."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "hardware"
+
 # ─────────────────────────────────────────────────────────
 #  Versions
 # ─────────────────────────────────────────────────────────
