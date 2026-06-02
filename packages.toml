@@ -1613,3 +1613,8 @@ required-amalgame = ">=0.8.72"
 package           = "hardware-input"
 tag               = "v0.2.0"
 required-amalgame = ">=0.8.73"
+
+[[version]]
+package           = "hardware-sensor"
+tag               = "v0.6.0"
+required-amalgame = ">=0.8.73"
