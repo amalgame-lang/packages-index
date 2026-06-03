@@ -1697,3 +1697,8 @@ required-amalgame = ">=0.8.72"
 package           = "web"
 tag               = "v0.26.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "datetime"
+tag               = "v0.2.2"
+required-amalgame = ">=0.7.7"
