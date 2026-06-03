@@ -379,6 +379,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "net-proxy"
+url         = "github.com/amalgame-lang/amalgame-net-proxy"
+description = "HTTP/1.1 reverse proxy — longest-prefix routing, X-Forwarded-For, hop-by-hop stripping, HTTPS upstreams. The nginx/Apache front-door slice of the Mosaic stack."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "web"
 url         = "github.com/amalgame-lang/amalgame-web"
 description = "Mosaic — the Amalgame web framework. Router + Sessions + WebContext."
@@ -1628,3 +1637,8 @@ required-amalgame = ">=0.8.72"
 package           = "hardware-motor"
 tag               = "v0.4.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-proxy"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
