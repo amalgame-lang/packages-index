@@ -1762,3 +1762,13 @@ required-amalgame = ">=0.8.72"
 package           = "web"
 tag               = "v0.31.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-http"
+tag               = "v0.20.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "web"
+tag               = "v0.32.0"
+required-amalgame = ">=0.8.72"
