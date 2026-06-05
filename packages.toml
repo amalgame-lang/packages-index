@@ -1929,3 +1929,8 @@ required-amalgame = ">=0.8.58"
 package           = "web"
 tag               = "v0.34.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "crypto"
+tag               = "v0.6.0"
+required-amalgame = ">=0.7.6"
