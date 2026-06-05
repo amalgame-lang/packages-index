@@ -1977,3 +1977,8 @@ required-amalgame = ">=0.7.6"
 package           = "webauthn"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "web"
+tag               = "v0.36.1"
+required-amalgame = ">=0.8.72"
