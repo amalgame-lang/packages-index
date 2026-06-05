@@ -190,6 +190,15 @@ license     = "Apache-2.0"
 category    = "framework"
 
 [[package]]
+name        = "webauthn"
+url         = "github.com/amalgame-lang/amalgame-webauthn"
+description = "WebAuthn / passkeys relying-party verifier (ES256): registration attestation parsing + authentication assertion signature verification with cloned-authenticator detection."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
 name        = "random"
 url         = "github.com/amalgame-lang/amalgame-random"
 description = "Pure-Amalgame random facade: PCG-32 deterministic stream + crypto-grade entropy from OS primitives."
