@@ -1851,6 +1851,11 @@ tag               = "v0.2.2"
 required-amalgame = ">=0.8.58"
 
 [[version]]
+package           = "formats-protobuf"
+tag               = "v0.2.3"
+required-amalgame = ">=0.8.58"
+
+[[version]]
 package           = "net-grpc"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
@@ -1883,4 +1888,9 @@ required-amalgame = ">=0.8.58"
 [[version]]
 package           = "net-grpc"
 tag               = "v0.4.2"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "net-grpc"
+tag               = "v0.4.3"
 required-amalgame = ">=0.8.58"
