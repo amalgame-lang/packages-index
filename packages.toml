@@ -532,6 +532,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "markdown"
+url         = "github.com/amalgame-lang/amalgame-markdown"
+description = "Markdown → HTML renderer written entirely in Amalgame (zero @c). Renders a GitHub-flavoured-Markdown subset: ATX headings (slug ids), fenced code, GFM pipe tables, nested lists, blockquotes, thematic breaks, paragraphs; inline bold/italic/code/links/autolinks. HTML-escaped by construction and link-URL scheme-sanitised — XSS-safe for untrusted Markdown. Built to retire the Node markdown-it dependency from the docs pipeline."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "format"
+
+[[package]]
 name        = "formats-protobuf"
 url         = "github.com/amalgame-lang/amalgame-formats-protobuf"
 description = "Protocol Buffers (proto3) wire-format codec — binary-safe encode/decode on List<int> (varint, zigzag, length-delimited, fixed32/64, tags, unknown-field skip). The foundation for a gRPC server."
@@ -1855,6 +1864,11 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "net-stream"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "markdown"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
 
