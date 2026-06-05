@@ -1894,3 +1894,8 @@ required-amalgame = ">=0.8.58"
 package           = "net-grpc"
 tag               = "v0.4.3"
 required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "net-grpc"
+tag               = "v0.5.0"
+required-amalgame = ">=0.8.58"
