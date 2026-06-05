@@ -1816,6 +1816,11 @@ tag               = "v0.23.0"
 required-amalgame = ">=0.8.58"
 
 [[version]]
+package           = "net-http"
+tag               = "v0.24.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
 package           = "web"
 tag               = "v0.32.0"
 required-amalgame = ">=0.8.72"
@@ -1853,6 +1858,11 @@ required-amalgame = ">=0.8.58"
 [[version]]
 package           = "formats-protobuf"
 tag               = "v0.2.3"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "formats-protobuf"
+tag               = "v0.2.4"
 required-amalgame = ">=0.8.58"
 
 [[version]]
@@ -1898,4 +1908,9 @@ required-amalgame = ">=0.8.58"
 [[version]]
 package           = "net-grpc"
 tag               = "v0.5.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "net-grpc"
+tag               = "v0.6.0"
 required-amalgame = ">=0.8.58"
