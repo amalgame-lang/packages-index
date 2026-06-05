@@ -280,6 +280,15 @@ license     = "Apache-2.0"
 category    = "framework"
 
 [[package]]
+name        = "io-filesystem"
+url         = "github.com/amalgame-lang/amalgame-io-filesystem"
+description = "Directory listing — the readdir/stat slice the bundled File facade lacks. Filesystem.List (entry names), IsDir / IsFile, and ListRecursive (all files under a tree, DFS, relative /-joined paths). POSIX opendir/readdir + Windows FindFirstFile behind a thin @c frontier; recursion + path handling in pure Amalgame."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
 name        = "yaml"
 url         = "github.com/amalgame-lang/amalgame-yaml"
 description = "Pure-Amalgame YAML 1.2 subset reader: block mappings + sequences + scalars (bool/int/float/string)."
@@ -641,6 +650,11 @@ required-amalgame = ">=0.7.7"
 package           = "io-filewatcher"
 tag               = "v0.1.0"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "io-filesystem"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
 
 [[version]]
 package           = "yaml"
