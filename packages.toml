@@ -1776,6 +1776,11 @@ tag               = "v0.4.0"
 required-amalgame = ">=0.7.6"
 
 [[version]]
+package           = "crypto"
+tag               = "v0.5.0"
+required-amalgame = ">=0.7.6"
+
+[[version]]
 package           = "net-smtp"
 tag               = "v0.2.4"
 required-amalgame = ">=0.8.58"
