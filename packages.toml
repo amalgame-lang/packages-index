@@ -64,6 +64,15 @@ license     = "Apache-2.0"
 category    = "database"
 
 [[package]]
+name        = "database-migrate"
+url         = "github.com/amalgame-lang/amalgame-database-migrate"
+description = "Safety-first schema migration runner for amalgame-database-sqlite: ordered up/down migrations applied one transaction at a time, fail-stop rollback (no half-applied drift), idempotent Up, irreversible-step refusal."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "database"
+
+[[package]]
 name        = "redis"
 url         = "github.com/amalgame-lang/amalgame-database-nosql-redis"
 description = "Redis (RESP2) client over raw TCP. Pure-protocol, no vendored lib. Works against Redis / KeyDB / Dragonfly / Valkey."
