@@ -2015,3 +2015,8 @@ required-amalgame = ">=0.8.72"
 package           = "net-http"
 tag               = "v0.27.0"
 required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "crypto"
+tag               = "v0.8.0"
+required-amalgame = ">=0.7.6"
