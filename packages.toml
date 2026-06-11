@@ -199,6 +199,15 @@ license     = "Apache-2.0"
 category    = "framework"
 
 [[package]]
+name        = "net-webpush"
+url         = "github.com/amalgame-lang/amalgame-net-webpush"
+description = "Web Push sender (RFC 8030/8291/8292): VAPID JWT (ES256) + aes128gcm payload encryption (ECDH P-256 + HKDF-SHA256) over a binary HTTPS POST. Push notifications to browsers/PWAs with the app closed."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "random"
 url         = "github.com/amalgame-lang/amalgame-random"
 description = "Pure-Amalgame random facade: PCG-32 deterministic stream + crypto-grade entropy from OS primitives."
@@ -2020,3 +2029,8 @@ required-amalgame = ">=0.8.58"
 package           = "crypto"
 tag               = "v0.8.0"
 required-amalgame = ">=0.7.6"
+
+[[version]]
+package           = "net-webpush"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
