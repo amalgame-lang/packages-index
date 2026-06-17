@@ -2084,3 +2084,8 @@ required-amalgame = ">=0.8.72"
 package           = "net-webdav"
 tag               = "v0.3.2"
 required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-webdav"
+tag               = "v0.4.0"
+required-amalgame = ">=0.8.72"
