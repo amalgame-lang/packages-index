@@ -2044,3 +2044,38 @@ required-amalgame = ">=0.8.58"
 package           = "net-webpush"
 tag               = "v0.1.1"
 required-amalgame = ">=0.8.58"
+
+# ── Added: amalgame-auth, amalgame-net-webdav, io-filesystem v0.2.0 ──
+
+[[package]]
+name        = "auth"
+url         = "github.com/amalgame-lang/amalgame-auth"
+description = "HTTP authentication primitives, usable outside the web framework — RFC 7617 Basic auth middleware (BasicAuth: Reject/Authenticate/Challenge, optional loopback/RFC1918 LAN bypass) + a multi-user scrypt credential store (Credentials, via amalgame-crypto). Lets lean L7 servers (e.g. WebDAV) require auth without pulling all of amalgame-web."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[package]]
+name        = "net-webdav"
+url         = "github.com/amalgame-lang/amalgame-net-webdav"
+description = "WebDAV server — expose a filesystem directory over HTTP (the Apache mod_dav slice). Class 1 (OPTIONS/PROPFIND/GET/HEAD/PUT/DELETE/MKCOL/COPY/MOVE) + opt-in Class 2 locking, plus WebDavNas, a multi-user NAS layer (per-user /home + a common /shared, HTTP Basic via amalgame-auth). Binary-safe; works with Android WebDAV apps / Finder / Windows / davfs2 / rclone."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[version]]
+package           = "io-filesystem"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "auth"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-webdav"
+tag               = "v0.3.1"
+required-amalgame = ">=0.8.72"
