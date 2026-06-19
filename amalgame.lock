@@ -1,0 +1,31 @@
+# amalgame.lock — auto-generated, commit me
+
+[[package]]
+name = "crypto"
+git  = "github.com/amalgame-lang/amalgame-crypto"
+tag  = "v0.8.0"
+rev  = "1f908c0c"
+
+[[package]]
+name = "datetime"
+git  = "github.com/amalgame-lang/amalgame-datetime"
+tag  = "v0.2.2"
+rev  = "f28d6556"
+
+[[package]]
+name = "random"
+git  = "github.com/amalgame-lang/amalgame-random"
+tag  = "v0.1.0"
+rev  = "da4ff0f7"
+
+[[package]]
+name = "logging"
+git  = "github.com/amalgame-lang/amalgame-logging"
+tag  = "v0.2.0"
+rev  = "ba89bd8d"
+
+[[package]]
+name = "web"
+git  = "github.com/amalgame-lang/amalgame-web"
+tag  = "v0.36.4"
+rev  = "f8da95c1"
