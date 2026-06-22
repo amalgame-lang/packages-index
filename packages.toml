@@ -577,6 +577,15 @@ license     = "Apache-2.0"
 category    = "format"
 
 [[package]]
+name        = "formats-mime"
+url         = "github.com/amalgame-lang/amalgame-formats-mime"
+description = "Pure-Amalgame read-only RFC 5322/MIME reader: MimePart tree, unfolded case-insensitive headers, quote-aware Content-Type/Disposition params, recursive multipart, base64/quoted-printable + RFC 2047 decoding. Inbound dual of net-smtp's Mail builder."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "format"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2161,5 +2170,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "formats-xml"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "formats-mime"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
