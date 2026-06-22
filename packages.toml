@@ -568,6 +568,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "formats-xml"
+url         = "github.com/amalgame-lang/amalgame-formats-xml"
+description = "Pure-Amalgame namespace-aware read-only XML reader: XmlNode tree, xmlns/prefix scoping (match by {namespace}local), attributes, CDATA, predefined entities. WebDAV/CalDAV/CardDAV-friendly."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "format"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
