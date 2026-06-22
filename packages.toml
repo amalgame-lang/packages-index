@@ -613,6 +613,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "net-pop3"
+url         = "github.com/amalgame-lang/amalgame-net-pop3"
+description = "POP3 server (RFC 1939 + STLS) for the native Amalgame mail server: Pop3Session state machine (USER/PASS/STAT/LIST/UIDL/RETR/TOP/DELE/QUIT) + Pop3Server TCP/TLS accept loop, reading an amalgame-net-mail-store. AUTH via scrypt (amalgame-crypto). Legacy companion to net-imap."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2217,5 +2226,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "net-imap"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-pop3"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
