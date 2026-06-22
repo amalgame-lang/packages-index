@@ -586,6 +586,15 @@ license     = "Apache-2.0"
 category    = "format"
 
 [[package]]
+name        = "net-mail-store"
+url         = "github.com/amalgame-lang/amalgame-net-mail-store"
+description = "Maildir message store with a SQLite index for the native Amalgame mail server: tmp->new atomic delivery, per-mailbox UID/UIDVALIDITY/flags/size, protocol-agnostic bytes in/out. Built on the File facade + amalgame-io-filesystem + amalgame-database-sqlite."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2175,5 +2184,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "formats-mime"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-mail-store"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
