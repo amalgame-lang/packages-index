@@ -604,6 +604,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "net-imap"
+url         = "github.com/amalgame-lang/amalgame-net-imap"
+description = "IMAP4rev1 server for the native Amalgame mail server: ImapSession state machine (CAPABILITY/STARTTLS/LOGIN/LIST/SELECT/FETCH+UID FETCH/STORE/SEARCH/EXPUNGE) + ImapServer TCP/TLS accept loop, reading an amalgame-net-mail-store. AUTH via scrypt (amalgame-crypto). Pairs with net-smtp-server."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2203,5 +2212,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "net-smtp-server"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-imap"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
