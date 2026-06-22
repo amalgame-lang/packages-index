@@ -631,6 +631,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "mail-send"
+url         = "github.com/amalgame-lang/amalgame-mail-send"
+description = "Outbound SMTP delivery (the send path) for the native Amalgame mail server: Sender.Send delivers a message over plaintext + opportunistic STARTTLS, optionally DKIM-signed (amalgame-mail-dkim), to MX :25 / submission :587 / a smarthost. Complements the implicit-TLS amalgame-net-smtp client."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2245,5 +2254,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "mail-dkim"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "mail-send"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
