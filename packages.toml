@@ -633,7 +633,7 @@ category    = "network"
 [[package]]
 name        = "mail-send"
 url         = "github.com/amalgame-lang/amalgame-mail-send"
-description = "Outbound SMTP delivery (the send path) for the native Amalgame mail server: Sender.Send delivers a message over plaintext + opportunistic STARTTLS, optionally DKIM-signed (amalgame-mail-dkim), to MX :25 / submission :587 / a smarthost. Complements the implicit-TLS amalgame-net-smtp client."
+description = "Outbound SMTP delivery (the send path) for the native Amalgame mail server: Sender.Send (plaintext + opportunistic STARTTLS, optional DKIM signing) + Sender.Deliver (MX lookup via Mx.Lookup, direct delivery to the recipient's best MX). To MX :25 / submission :587 / a smarthost. Complements the implicit-TLS amalgame-net-smtp client."
 tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
@@ -2260,4 +2260,9 @@ required-amalgame = ">=0.8.72"
 [[version]]
 package           = "mail-send"
 tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "mail-send"
+tag               = "v0.2.0"
 required-amalgame = ">=0.8.72"
