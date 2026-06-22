@@ -622,6 +622,15 @@ license     = "Apache-2.0"
 category    = "network"
 
 [[package]]
+name        = "mail-dkim"
+url         = "github.com/amalgame-lang/amalgame-mail-dkim"
+description = "DKIM signing (RFC 6376, rsa-sha256, relaxed/relaxed) for the native Amalgame mail server: Dkim.Sign prepends a DKIM-Signature header (From/To/Subject/Date + body hash), Dkim.Verify checks it. Built on amalgame-crypto (Sha256 + JwsKey RS256). The DKIM pillar of SPF/DKIM/DMARC deliverability."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[package]]
 name        = "net-grpc"
 url         = "github.com/amalgame-lang/amalgame-net-grpc"
 description = "gRPC server for the Mosaic stack — message framing, status codes, method-path routing, unary dispatch, and GrpcServer.ServeH2c (serve gRPC over HTTP/2 cleartext end-to-end). Composes amalgame-formats-protobuf + amalgame-net-http."
@@ -2231,5 +2240,10 @@ required-amalgame = ">=0.8.72"
 
 [[version]]
 package           = "net-pop3"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "mail-dkim"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
