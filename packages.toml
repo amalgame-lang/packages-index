@@ -2258,6 +2258,11 @@ tag               = "v0.2.0"
 required-amalgame = ">=0.8.72"
 
 [[version]]
+package           = "net-imap"
+tag               = "v0.2.1"
+required-amalgame = ">=0.8.72"
+
+[[version]]
 package           = "net-pop3"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
@@ -2265,6 +2270,11 @@ required-amalgame = ">=0.8.72"
 [[version]]
 package           = "net-pop3"
 tag               = "v0.2.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-pop3"
+tag               = "v0.2.1"
 required-amalgame = ">=0.8.72"
 
 [[version]]
