@@ -2346,3 +2346,8 @@ required-amalgame = ">=0.8.58"
 package           = "net-smtp"
 tag               = "v0.2.7"
 required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "hardware-sensor"
+tag               = "v0.6.1"
+required-amalgame = ">=0.8.73"
