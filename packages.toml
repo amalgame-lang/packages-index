@@ -2351,3 +2351,19 @@ required-amalgame = ">=0.8.58"
 package           = "hardware-sensor"
 tag               = "v0.6.1"
 required-amalgame = ">=0.8.73"
+
+# ── Added: amalgame-captcha ──────────────────────────────
+
+[[package]]
+name        = "captcha"
+url         = "github.com/amalgame-lang/amalgame-captcha"
+description = "Self-hosted, stateless arithmetic CAPTCHA (HMAC-SHA-256 signed token, no session/DB required) — no third-party service (Google reCAPTCHA/hCaptcha/etc.)."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "framework"
+
+[[version]]
+package           = "captcha"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
