@@ -372,7 +372,7 @@ category    = "media"
 [[package]]
 name        = "audio"
 url         = "github.com/amalgame-lang/amalgame-audio"
-description = "Audio synth + playback + WAV IO for Amalgame — miniaudio (public domain), vendored. Sine/Square/Triangle/Noise gen, ADSR envelope, Mix, Echo, SaveAsWav, LoadWav, Play."
+description = "Audio synth + streaming playback + capture + live mixer + multi-format decode + MIDI SMF + stereo helpers + lossless MP3/WAV splice + RNNoise denoise + Opus encode for Amalgame — miniaudio (public domain) + RNNoise + libopus + libogg (BSD-3-Clause), vendored."
 tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
