@@ -2351,3 +2351,29 @@ required-amalgame = ">=0.8.58"
 package           = "hardware-sensor"
 tag               = "v0.6.1"
 required-amalgame = ">=0.8.73"
+
+# ── Added: amalgame-qrcode ────────────────────────────────
+
+[[package]]
+name        = "qrcode"
+url         = "github.com/amalgame-lang/amalgame-qrcode"
+description = "Self-hosted QR Code encoder (Byte mode, EC level M, versions 1-10) — no third-party service, spec tables cross-checked against two independent sources."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "format"
+
+[[version]]
+package           = "qrcode"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "qrcode"
+tag               = "v0.1.1"
+required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "qrcode"
+tag               = "v0.1.2"
+required-amalgame = ">=0.7.7"
