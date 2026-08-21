@@ -2377,3 +2377,24 @@ required-amalgame = ">=0.7.7"
 package           = "qrcode"
 tag               = "v0.1.2"
 required-amalgame = ">=0.7.7"
+
+# -- Added: amalgame-pdf -------------------------------------
+
+[[package]]
+name        = "pdf"
+url         = "github.com/amalgame-lang/amalgame-pdf"
+description = "Pure-Amalgame PDF 1.4 writer: multi-page, word-wrap, text (Helvetica, WinAnsi), vectors, JPEG images."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "format"
+
+[[version]]
+package           = "pdf"
+tag               = "v0.1.0"
+required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "pdf"
+tag               = "v0.2.0"
+required-amalgame = ">=0.7.7"
