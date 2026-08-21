@@ -2372,3 +2372,8 @@ required-amalgame = ">=0.7.7"
 package           = "qrcode"
 tag               = "v0.1.1"
 required-amalgame = ">=0.7.7"
+
+[[version]]
+package           = "qrcode"
+tag               = "v0.1.2"
+required-amalgame = ">=0.7.7"
