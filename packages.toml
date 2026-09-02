@@ -2383,7 +2383,7 @@ required-amalgame = ">=0.7.7"
 [[package]]
 name        = "pdf"
 url         = "github.com/amalgame-lang/amalgame-pdf"
-description = "Pure-Amalgame PDF 1.4 writer: multi-page, word-wrap, text (Helvetica, WinAnsi), vectors, JPEG images."
+description = "Pure-Amalgame PDF 1.4 writer: multi-page, word-wrap, embedded TrueType fonts (Liberation Sans), vectors, JPEG images."
 tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
@@ -2408,3 +2408,8 @@ required-amalgame = ">=0.8.58"
 package           = "async"
 tag               = "v0.4.1"
 required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "pdf"
+tag               = "v0.3.1"
+required-amalgame = ">=0.8.90"
