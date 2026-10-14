@@ -1423,6 +1423,11 @@ tag               = "v0.4.0"
 required-amalgame = ">=0.8.40"
 
 [[version]]
+package           = "sqlite"
+tag               = "v0.4.1"
+required-amalgame = ">=0.8.40"
+
+[[version]]
 package           = "duckdb"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.40"
