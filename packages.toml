@@ -2263,6 +2263,16 @@ tag               = "v0.2.2"
 required-amalgame = ">=0.8.72"
 
 [[version]]
+package           = "net-smtp-server"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-smtp-server"
+tag               = "v0.3.1"
+required-amalgame = ">=0.8.72"
+
+[[version]]
 package           = "net-imap"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
