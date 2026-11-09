@@ -2413,3 +2413,8 @@ required-amalgame = ">=0.8.19"
 package           = "pdf"
 tag               = "v0.3.1"
 required-amalgame = ">=0.8.90"
+
+[[version]]
+package           = "pollen"
+tag               = "v0.4.0"
+required-amalgame = ">=0.8.52"
