@@ -2439,3 +2439,8 @@ category    = "hardware"
 package           = "modbus"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "pollen"
+tag               = "v0.6.0"
+required-amalgame = ">=0.8.52"
