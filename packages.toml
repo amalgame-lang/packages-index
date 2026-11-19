@@ -2470,3 +2470,8 @@ category    = "hardware"
 package           = "opcua"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "opcua"
+tag               = "v0.1.1"
+required-amalgame = ">=0.8.52"
