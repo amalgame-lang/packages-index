@@ -2475,3 +2475,19 @@ required-amalgame = ">=0.8.52"
 package           = "opcua"
 tag               = "v0.1.1"
 required-amalgame = ">=0.8.52"
+
+# ── Added: amalgame-net-sms ───────────────────────────────
+
+[[package]]
+name        = "net-sms"
+url         = "github.com/amalgame-lang/amalgame-net-sms"
+description = "Send SMS through an HTTP gateway: SMS Gateway for Android (an Android phone and its SIM), Twilio, or any HTTP gateway by template. GSM 03.38 helpers (alphabet, segment count, transliteration so a text stays in one SMS, Fit to N segments) and E.164 normalisation of typed phone numbers. Pure Amalgame over net-http."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[version]]
+package           = "net-sms"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
