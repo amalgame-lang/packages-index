@@ -2496,3 +2496,19 @@ category    = "network"
 package           = "net-sms"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
+
+# ── Added: amalgame-oncall ──
+
+[[package]]
+name        = "oncall"
+url         = "github.com/amalgame-lang/amalgame-oncall"
+description = "On-call paging: a rota and escalation steps (after how long, to whom, by push / SMS / mail) until someone takes the incident; per-push delivery receipts with an SMS + mail fallback for a push not received in time; signed take tokens to take an incident from the lock screen; periodic phone tests; the paged told who took it. Storage-agnostic, ships the phone service worker. Over net-webpush, net-sms and net-smtp."
+tier        = "official"
+maintainer  = "amalgame-lang"
+license     = "Apache-2.0"
+category    = "network"
+
+[[version]]
+package           = "oncall"
+tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
