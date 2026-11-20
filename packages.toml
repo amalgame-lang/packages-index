@@ -2502,6 +2502,11 @@ package           = "net-sms"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
 
+[[version]]
+package           = "net-sms"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.58"
+
 # ── Added: amalgame-oncall ──
 
 [[package]]
@@ -2516,4 +2521,9 @@ category    = "network"
 [[version]]
 package           = "oncall"
 tag               = "v0.1.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "oncall"
+tag               = "v0.2.0"
 required-amalgame = ">=0.8.58"
