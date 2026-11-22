@@ -2561,6 +2561,11 @@ package           = "opcua"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.52"
 
+[[version]]
+package           = "opcua"
+tag               = "v0.3.1"
+required-amalgame = ">=0.8.52"
+
 # ── Added: amalgame-net-sms ───────────────────────────────
 
 [[package]]
