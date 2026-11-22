@@ -2530,7 +2530,7 @@ required-amalgame = ">=0.8.52"
 [[package]]
 name        = "opcua"
 url         = "github.com/amalgame-lang/amalgame-opcua"
-description = "OPC UA client (connect, read many nodes in one request, browse the address space with engineering units and EURange) and a small OPC UA server for tests and demos. Over open62541 v1.4.22 (vendored, MPL-2.0, OpenSSL encryption). Linux."
+description = "OPC UA client (connect, read many nodes in one request, write as each node's own type, Sign & Encrypt with certificates and users, browse the address space with engineering units and EURange) and a small OPC UA server for tests and demos. Over open62541 v1.4.22 (vendored, MPL-2.0, OpenSSL encryption). Linux."
 tier        = "official"
 maintainer  = "amalgame-lang"
 license     = "Apache-2.0"
@@ -2544,6 +2544,26 @@ required-amalgame = ">=0.8.52"
 [[version]]
 package           = "opcua"
 tag               = "v0.1.1"
+required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "opcua"
+tag               = "v0.2.0"
+required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "opcua"
+tag               = "v0.2.1"
+required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "opcua"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "opcua"
+tag               = "v0.3.1"
 required-amalgame = ">=0.8.52"
 
 # ── Added: amalgame-net-sms ───────────────────────────────
