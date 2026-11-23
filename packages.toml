@@ -2470,6 +2470,11 @@ tag               = "v0.29.7"
 required-amalgame = ">=0.8.58"
 
 [[version]]
+package           = "net-http"
+tag               = "v0.29.8"
+required-amalgame = ">=0.8.58"
+
+[[version]]
 package           = "async"
 tag               = "v0.4.1"
 required-amalgame = ">=0.8.19"
