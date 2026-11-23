@@ -668,6 +668,11 @@ tag               = "v0.2.0"
 required-amalgame = ">=0.5.0"
 
 [[version]]
+package           = "redis"
+tag               = "v0.3.0"
+required-amalgame = ">=0.5.0"
+
+[[version]]
 package           = "mqtt"
 tag               = "v0.2.0"
 required-amalgame = ">=0.5.0"
@@ -843,6 +848,11 @@ tag               = "v0.1.0"
 required-amalgame = ">=0.5.4"
 
 [[version]]
+package           = "image"
+tag               = "v0.2.0"
+required-amalgame = ">=0.5.4"
+
+[[version]]
 package           = "audio"
 tag               = "v0.1.0"
 required-amalgame = ">=0.5.4"
@@ -875,6 +885,11 @@ required-amalgame = ">=0.8.19"
 [[version]]
 package           = "threading"
 tag               = "v0.1.0"
+required-amalgame = ">=0.8.19"
+
+[[version]]
+package           = "threading"
+tag               = "v0.1.1"
 required-amalgame = ">=0.8.19"
 
 [[version]]
@@ -1420,6 +1435,11 @@ required-amalgame = ">=0.8.52"
 [[version]]
 package           = "sqlite"
 tag               = "v0.4.0"
+required-amalgame = ">=0.8.40"
+
+[[version]]
+package           = "sqlite"
+tag               = "v0.4.1"
 required-amalgame = ">=0.8.40"
 
 [[version]]
@@ -1983,6 +2003,11 @@ tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
 
 [[version]]
+package           = "net-stream"
+tag               = "v0.3.0"
+required-amalgame = ">=0.8.58"
+
+[[version]]
 package           = "markdown"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.58"
@@ -2303,6 +2328,11 @@ tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
 
 [[version]]
+package           = "net-mail-store"
+tag               = "v0.1.1"
+required-amalgame = ">=0.8.72"
+
+[[version]]
 package           = "net-smtp-server"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
@@ -2323,6 +2353,11 @@ tag               = "v0.2.2"
 required-amalgame = ">=0.8.72"
 
 [[version]]
+package           = "net-smtp-server"
+tag               = "v0.5.1"
+required-amalgame = ">=0.8.72"
+
+[[version]]
 package           = "net-imap"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
@@ -2343,6 +2378,11 @@ tag               = "v0.2.2"
 required-amalgame = ">=0.8.72"
 
 [[version]]
+package           = "net-imap"
+tag               = "v0.2.19"
+required-amalgame = ">=0.8.72"
+
+[[version]]
 package           = "net-pop3"
 tag               = "v0.1.0"
 required-amalgame = ">=0.8.72"
@@ -2360,6 +2400,11 @@ required-amalgame = ">=0.8.72"
 [[version]]
 package           = "net-pop3"
 tag               = "v0.2.2"
+required-amalgame = ">=0.8.72"
+
+[[version]]
+package           = "net-pop3"
+tag               = "v0.2.4"
 required-amalgame = ">=0.8.72"
 
 [[version]]
@@ -2405,6 +2450,11 @@ required-amalgame = ">=0.8.58"
 [[version]]
 package           = "net-smtp"
 tag               = "v0.2.7"
+required-amalgame = ">=0.8.58"
+
+[[version]]
+package           = "net-smtp"
+tag               = "v0.2.10"
 required-amalgame = ">=0.8.58"
 
 [[version]]
@@ -2482,6 +2532,11 @@ required-amalgame = ">=0.8.19"
 [[version]]
 package           = "pdf"
 tag               = "v0.3.1"
+required-amalgame = ">=0.8.90"
+
+[[version]]
+package           = "pdf"
+tag               = "v0.4.0"
 required-amalgame = ">=0.8.90"
 
 [[version]]
