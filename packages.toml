@@ -1448,6 +1448,11 @@ tag               = "v0.3.0"
 required-amalgame = ">=0.8.40"
 
 [[version]]
+package           = "duckdb"
+tag               = "v0.4.0"
+required-amalgame = ">=0.8.40"
+
+[[version]]
 package           = "postgresql"
 tag               = "v0.3.0"
 required-amalgame = ">=0.8.40"
@@ -2608,6 +2613,11 @@ required-amalgame = ">=0.8.52"
 [[version]]
 package           = "pollen"
 tag               = "v0.10.0"
+required-amalgame = ">=0.8.52"
+
+[[version]]
+package           = "pollen"
+tag               = "v0.10.1"
 required-amalgame = ">=0.8.52"
 
 # ── Added: amalgame-opcua ─────────────────────────────────
